@@ -1,0 +1,16 @@
+{
+  "networks": {
+    "development": {
+      "url": "http://localhost:8545",
+      "txParams": {}
+    },
+    "ropsten": {
+      "url": "ropsten.smartcontracts.xyz:8565"
+    }
+  },
+  "solc": {
+    "input": "./test/contracts",
+    "output": "build",
+    "optimized": true
+  }
+}
